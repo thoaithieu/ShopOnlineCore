@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ShopOnlineCore.Infrastructure.SharedKernel
 {
-    public class DomainEntity<T>
+    public abstract class DomainEntity<T>
     {
         public T Id { get; set; }
         public bool IsTransient()

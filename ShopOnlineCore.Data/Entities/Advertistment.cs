@@ -1,5 +1,5 @@
-﻿using ShopOnlineCore.Infrastructure.Enums;
-using ShopOnlineCore.Infrastructure.Interfaces;
+﻿using ShopOnlineCore.Data.Enums;
+using ShopOnlineCore.Data.Interfaces;
 using ShopOnlineCore.Infrastructure.SharedKernel;
 using System;
 using System.Collections.Generic;
@@ -9,7 +9,7 @@ using System.Text;
 namespace ShopOnlineCore.Data.Entities
 {
     [Table("Advertistments")]
-    public class Advertistment: DomainEntity<int>, ISwitchable, ISorttable
+    public class Advertistment: DomainEntity<int>, ISwitchable, ISortable
     {
         public string Name { get; set; }
         public string Description { get; set; }

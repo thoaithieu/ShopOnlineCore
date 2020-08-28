@@ -4,8 +4,8 @@ using System.Text;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
 using ShopOnlineCore.Infrastructure.SharedKernel;
-using ShopOnlineCore.Infrastructure.Interfaces;
-using ShopOnlineCore.Infrastructure.Enums;
+using ShopOnlineCore.Data.Interfaces;
+using ShopOnlineCore.Data.Enums;
 
 namespace ShopOnlineCore.Data.Entities
 {

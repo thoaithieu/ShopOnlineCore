@@ -12,6 +12,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\ShopOnlineCore.Data.EF\ShopOnlineCore.Data.EF.csproj" />
     <ProjectReference Include="..\ShopOnlineCore.Data\ShopOnlineCore.Data.csproj" />
     <ProjectReference Include="..\ShopOnlineCore.Utilites\ShopOnlineCore.Utilites.csproj" />

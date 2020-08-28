@@ -1,5 +1,4 @@
 ﻿using ShopOnlineCore.Data.Enums;
-using ShopOnlineCore.Infrastructure.Enums;
 using ShopOnlineCore.Infrastructure.SharedKernel;
 using System;
 using System.Collections.Generic;
@@ -62,7 +61,7 @@ namespace ShopOnlineCore.Data.Entities
         public DateTime DateModified { set; get; }
 
         [DefaultValue(Status.Active)]
-        public Status Status { set; get; } = Status.;
+        public Status Status { set; get; } = Status.Active;
 
         public Guid? CustomerId { set; get; }
 

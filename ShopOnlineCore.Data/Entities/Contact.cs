@@ -1,4 +1,4 @@
-﻿using ShopOnlineCore.Infrastructure.Enums;
+﻿using ShopOnlineCore.Data.Enums;
 using ShopOnlineCore.Infrastructure.SharedKernel;
 using System;
 using System.Collections.Generic;

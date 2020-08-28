@@ -1,5 +1,5 @@
-﻿using ShopOnlineCore.Infrastructure.Enums;
-using ShopOnlineCore.Infrastructure.Interfaces;
+﻿using ShopOnlineCore.Data.Enums;
+using ShopOnlineCore.Data.Interfaces;
 using ShopOnlineCore.Infrastructure.SharedKernel;
 using System;
 using System.Collections.Generic;
@@ -11,7 +11,7 @@ using System.Text;
 namespace ShopOnlineCore.Data.Entities
 {
     [Table("Functions")]
-    public class Function : DomainEntity<string>, ISwitchable, ISorttable
+    public class Function : DomainEntity<string>, ISwitchable, ISortable
     {
         public Function()
         {
@@ -27,15 +27,11 @@ namespace ShopOnlineCore.Data.Entities
             this.Status = Status.Active;
         }
         [Required]
-        [StringLength(128)]
         public string Name { set; get; }
 
         [Required]
-        [StringLength(250)]
         public string URL { set; get; }
 
-
-        [StringLength(128)]
         public string ParentId { set; get; }
 
         public string IconCss { get; set; }

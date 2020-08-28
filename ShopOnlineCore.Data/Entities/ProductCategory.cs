@@ -1,5 +1,5 @@
-﻿using ShopOnlineCore.Infrastructure.Enums;
-using ShopOnlineCore.Infrastructure.Interfaces;
+﻿using ShopOnlineCore.Data.Enums;
+using ShopOnlineCore.Data.Interfaces;
 using ShopOnlineCore.Infrastructure.SharedKernel;
 using System;
 using System.Collections;
@@ -8,7 +8,7 @@ using System.Collections.Generic;
 namespace ShopOnlineCore.Data.Entities
 {
     public class ProductCategory : DomainEntity<int>,
-        IHasSeoMetaData, ISwitchable, ISorttable, IDateTracking
+        IHasSeoMetaData, ISwitchable, ISortable, IDateTracking
     {
         public ProductCategory()
         {

@@ -1,5 +1,5 @@
-﻿using ShopOnlineCore.Infrastructure.Enums;
-using ShopOnlineCore.Infrastructure.Interfaces;
+﻿using ShopOnlineCore.Data.Enums;
+using ShopOnlineCore.Data.Interfaces;
 using ShopOnlineCore.Infrastructure.SharedKernel;
 using System;
 using System.Collections.Generic;

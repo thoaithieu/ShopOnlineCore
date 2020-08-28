@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ShopOnlineCore.Infrastructure.SharedKernel;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Text;
 namespace ShopOnlineCore.Data.Entities
 {
     [Table("AdvertistmentPositions")]
-    public class AdvertistmentPosition
+    public class AdvertistmentPosition:DomainEntity<string>
     {
         public string PageId { get; set; }
         public string Name { get; set; }
